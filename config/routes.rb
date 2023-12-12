@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  get '/:id' => "shortener/shortened_urls#show"
+  post '/shorten', to: 'url_shortener#shorten'
 end

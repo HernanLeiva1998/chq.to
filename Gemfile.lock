@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/jpmcgrath/shortener.git
+  revision: d23f4582c85cfb3bcdb2cc4b5a3947943e8cd185
+  specs:
+    shortener (1.0.1)
+      voight_kampff (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -225,6 +232,8 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    voight_kampff (2.0.0)
+      rack (>= 1.4)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -253,6 +262,7 @@ DEPENDENCIES
   rails (~> 7.1.2)
   redis (>= 4.0.1)
   selenium-webdriver
+  shortener!
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
